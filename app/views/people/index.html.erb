@@ -1,0 +1,6 @@
+<table><%=@persons.inspect%>
+	<tr><td>Name</td><td>Age</td></tr>
+<% @persons.each do |person| %>
+<tr><td><%= person.name %></td><td><%= person.age %></td></tr>
+<% end %>
+</table>

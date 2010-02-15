@@ -1,0 +1,28 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+# one:
+#   column: value
+#
+# two:
+#   column: value
+
+jane:
+  id:     1
+  name:   Jane
+  age:    25
+  gender: Female
+mike:
+  id:     2
+  name:   Mike
+  age:    13
+  gender: Male
+kate:
+  id:     3
+  name:   Kate
+  age:    44
+  gender: Female
+bryan:
+  id:     4
+  name:   Bryan
+  age:    26
+  gender: Male

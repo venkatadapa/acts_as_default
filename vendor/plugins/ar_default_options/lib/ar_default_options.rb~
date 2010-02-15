@@ -1,0 +1,11 @@
+# ArDefaultOptions
+class << ActiveRecord::Base
+  # define a method for this class that takes two arguments.
+  def default_find_option(option_name, value)
+    # set our instance variable to a Hash if it's currently nil
+    @default_find_options ||= {}
+    # and add our information to it.
+    @default_find_options[option_name] = value
+  end
+
+end
